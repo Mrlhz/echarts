@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/charts/scrollline/scrollline",
     "pages/charts/radar/radar",
@@ -7,12 +7,33 @@
     "pages/charts/column/column",
     "pages/charts/pie/pie",
     "pages/charts/ring/ring",
-    "pages/charts/area/area"
+    "pages/charts/area/area",
+    "pages/list/list"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "wxCharts Demo",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "color": "#999",
+    "selectedColor": "#62bf82",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "ECharts",
+        "iconPath": "images/icon/home1.png",
+        "selectedIconPath": "images/icon/home.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "list",
+        "iconPath": "images/icon/list1.png",
+        "selectedIconPath": "images/icon/list.png"
+      }
+    ]
   }
 }
